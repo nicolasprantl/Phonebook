@@ -51,6 +51,7 @@ namespace Library
                 new MessageWhatsapp().Send(contacto.Phone, message);
             }
         }
+
         public void AddContact(string nombre, string telefono, string twitter)
         {
             Contact contact = new Contact(nombre);
@@ -65,5 +66,6 @@ namespace Library
             contact.Twitter = twitter;
             this.persons.Remove(contact);
         }
+
     }
 }
