@@ -1,69 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Program\\Program.csproj": {}
+    "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Program\\Program.csproj": {}
   },
   "projects": {
-    "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\Library.csproj": {
+    "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\FIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Program\\Program.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Program\\Program.csproj",
-        "projectName": "Program",
-        "projectPath": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Program\\Program.csproj",
-        "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Program\\obj\\",
+        "outputPath": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\Library.csproj": {
-                "projectPath": "c:\\Users\\FIT\\Documents\\GitHub\\Phonebook\\PII_Phonebook_Start\\src\\Library\\Library.csproj"
+              "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\Library.csproj"
+              },
+              "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\WhatsAppApiUCU.csproj": {
+                "projectPath": "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\WhatsAppApiUCU.csproj"
               }
             }
           }
@@ -102,6 +53,174 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Program\\Program.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Program\\Program.csproj",
+        "projectName": "Program",
+        "projectPath": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Program\\Program.csproj",
+        "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Program\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\FIT\\Desktop\\PII_Phonebook_Start-master\\src\\Library\\Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\Library.csproj",
+        "projectName": "TwitterApi",
+        "projectPath": "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FIT\\Desktop\\PII_TwitterApi-master\\src\\Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\WhatsAppApiUCU.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\WhatsAppApiUCU.csproj",
+        "projectName": "WhatsAppApiUCU",
+        "projectPath": "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\WhatsAppApiUCU.csproj",
+        "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FIT\\Desktop\\PII_WhatsAppApiUCU-master\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.17.0, )"
             }
           },
           "imports": [

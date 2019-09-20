@@ -12,27 +12,22 @@ namespace Program
             nicolas.Phone = "+59899000779";
             nicolas.Twitter = "2354094344";
             nicolas.Email = "nointeresa";
-
-            var pedrito = new Contact("pedrito");
             
             
             // Crear la lista de contactos
-            var telefonera = new Phonebook(nicolas);
+            var phonebook = new Phonebook(nicolas);
             // Agregar contactos a la lista
-
-            // Enviar un correo a algunos contactos
+            phonebook.AddContact("Maria", "123456789", "maria");
+            phonebook.AddContact("Rodrigo", "987654321", "rodri");
+            phonebook.AddContact("Facundo", "741852963", "facu");
 
             // Enviar un WhatsApp a algunos contactos
+            MessageWhatsapp whatsapp = new MessageWhatsapp();
+            whatsapp.Send(nicolas.Phone,"Hoaaaa");
             
-            
-            //telefonera.SendWarap();
-            //telefonera.SendTwitter();
-            
-            //MessageWhatsapp.Send("nicolas","Hoaaaa");
-            
-            // Enviar un SMS a algunos contactos
-            
-            //MessageTwitter.Send("nicolas","Hoaaa");
+            // Enviar un Tweet a algunos contactos
+            MessageTwitter twitter = new MessageTwitter();
+            twitter.Send(nicolas.Twitter, "Hello world");
         }
     }
 }
