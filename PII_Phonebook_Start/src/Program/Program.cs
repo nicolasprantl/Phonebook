@@ -13,19 +13,19 @@ namespace Program
             nicolas.Twitter = "2354094344";
             nicolas.Email = "nointeresa";
             
-            
             // Crear la lista de contactos
             var phonebook = new Phonebook(nicolas);
+            
             // Agregar contactos a la lista
             phonebook.AddContact("Maria", "123456789", "maria");
             phonebook.AddContact("Rodrigo", "987654321", "rodri");
             phonebook.AddContact("Facundo", "741852963", "facu");
 
-            // Enviar un WhatsApp a algunos contactos
+            // Enviar un WhatsApp a un contacto
             MessageWhatsapp whatsapp = new MessageWhatsapp();
             whatsapp.Send(nicolas.Phone,"Hoaaaa");
             
-            // Enviar un Tweet a algunos contactos
+            // Enviar un Tweet a un contacto
             MessageTwitter twitter = new MessageTwitter();
             twitter.Send(nicolas.Twitter, "Hello world");
         }
