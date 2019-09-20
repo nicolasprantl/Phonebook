@@ -31,5 +31,25 @@ namespace Library
 
             return result;
         }
+
+        public void SendTwitter(string[] nombcontactos, string message)
+        {
+            List<Contact> contactos = Search(nombcontactos);
+
+            foreach (Contact contacto in contactos)
+            {
+                new MessageTwitter().Send(contacto.Twitter,message);
+            }
+        }
+
+        public void SendWarap(string[] nombcontactos , string message)
+        {
+            List<Contact> contactos = Search(nombcontactos);
+
+            foreach (Contact contacto in contactos)
+            {
+                new MessageWhatsapp().Send(contacto.Phone, message);
+            }
+        }
     }
 }
