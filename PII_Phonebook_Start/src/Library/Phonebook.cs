@@ -42,7 +42,7 @@ namespace Library
             }
         }
 
-        public void SendWarap(string[] nombcontactos , string message)
+        public void SendWhatsapp(string[] nombcontactos , string message)
         {
             List<Contact> contactos = Search(nombcontactos);
 
@@ -50,6 +50,20 @@ namespace Library
             {
                 new MessageWhatsapp().Send(contacto.Phone, message);
             }
+        }
+        public void AddContact(string nombre, string telefono, string twitter)
+        {
+            Contact contact = new Contact(nombre);
+            contact.Phone = telefono;
+            contact.Twitter = twitter;
+            this.persons.Add(contact);
+        }
+        public void RemoveContact(string nombre, string telefono, string twitter)
+        {
+            Contact contact = new Contact(nombre);
+            contact.Phone = telefono;
+            contact.Twitter = twitter;
+            this.persons.Remove(contact);
         }
     }
 }
