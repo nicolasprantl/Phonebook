@@ -1,4 +1,5 @@
 using System;
+using WhatsAppApiUCU;
 
 namespace Library{
 
@@ -10,8 +11,7 @@ namespace Library{
             const string authToken = "fdcaac12dc7e5b031908429ee402e7a4";
             
             var whats =new WhatsAppApi( accountSid, authToken);
-            string sid = whats.Send(phone, message);
-            Console.WriteLine(sid);
+            whats.Send(phone, message);
         }
 
 
